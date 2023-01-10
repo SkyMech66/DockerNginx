@@ -1,0 +1,16 @@
+<html>
+    <body style="background-color:cyan";><center>
+        <head>
+            <title> Week16 docker project</title>
+            </head>
+            <body>
+                <h1>Screaming internally! the current date & time :
+                    <p><span id="datetime"></span></p>
+                    <script>
+                        var dt = new Date();
+                        document.getElementById("datetime").innerHTML = dt.toLocaleString();
+                    </script>
+                </h1>
+            </body>
+
+</html>
